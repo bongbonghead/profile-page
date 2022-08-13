@@ -1,0 +1,51 @@
+.jumbotron {
+    background-color:white;
+    color: red;
+    border: 5px solid;
+}
+
+.jumbotron h1, p, img {
+    padding-left: 10px
+}
+
+body {
+    background-image: url("../assets/misc/papyrus.png")
+}
+
+
+.fa {
+    font-size:50px;
+}
+
+#icons .btn {
+    display: block;
+    margin: auto;
+}
+
+.nature-gallery .nature-gallery-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card .card-img-top {
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.card .card-body {
+    color: white;
+
+}
+
+.card .card-body .card-title {
+    margin-bottom: 0px;
+}
+
+.card .card-body .card-text {
+    margin-top: 10px;
+    display: none;
+}
+
+.card:hover .card-body .card-text {
+    display: block;
+}
